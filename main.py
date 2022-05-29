@@ -29,6 +29,6 @@ for figura in lst:
         s = ((a + b + c)/2)
         pole += obliczanie_trojkata(a,b,c)
     else:
-        print()
+        print("Błąd: można podać maksymalnie 3 liczby")
         break
 print(round(pole,2))
