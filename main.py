@@ -2,7 +2,7 @@ from math import pi
 lst = []
 figura = []
 ilosc_figur = int(float(input().strip()))
-for i in range(liczba_figur):
+for i in range(ilosc_figur):
     lst.append(input().split())
 
 def obliczanie_kola(a):
